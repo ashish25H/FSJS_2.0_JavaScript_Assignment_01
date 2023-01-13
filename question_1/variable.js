@@ -1,0 +1,12 @@
+const num = 2;
+console.log(`Value is ${num} and type is ${typeof num}`);
+const str = "Tony Stark";
+console.log(`Value is ${str} and type is ${typeof str}`);
+const bool = true;
+console.log(`Value is ${bool} and type is ${typeof bool}`);
+const n = null;
+console.log(`Value is ${n} and type is ${typeof n}`);
+const a = undefined;
+console.log(`Value is ${a} and type is ${typeof a}`);
+const bigInt = BigInt(900000000000000000000000000000);
+console.log(`Value is ${bigInt} and type is ${typeof bigInt}`);
